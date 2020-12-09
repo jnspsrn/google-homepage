@@ -11,9 +11,29 @@ body, html {
 }
 
 header {
-    background: lightcoral;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background: lightcoral; */
     height: 7%;
     width: 100%;
+}
+
+.profile-photo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.gmail-images-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background: chartreuse; */
+    margin-right: 20px;
+    width: 18%;
 }
 
 .content {
@@ -62,13 +82,12 @@ footer {
 }
 
 .search-bar-area:hover {
-    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.19);
+    box-shadow: 0.1px 1px 1px 1px rgba(0,0,0,0.19);
 }
 
 input {
     border-color: transparent;
-    width: 100%;
-    -webkit-tap-highlight-color: transparent;
+    width: 95%;
 }
 
 input:focus {
