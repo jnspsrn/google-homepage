@@ -1,0 +1,85 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    background: lightcoral;
+    height: 7%;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    height: 86%;
+    align-items: center;
+}
+
+footer {
+    background: lightpink;
+    align-self: flex-end;
+    width: 100%;
+    height: 7%;
+}
+
+.google-logo {
+    padding-top: 100px;
+    width: 272px;
+    height: 92px;
+}
+
+.search-logo {
+    padding-top: 5px;
+    padding-left: 5px;
+    width: 16px;
+    height: 16px;
+}
+
+.voice-logo {
+    padding-top: 5px;
+    padding-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.search-bar-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 50px;
+    width: 500px;
+}
+
+.search-bar-area:hover {
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.19);
+}
+
+input {
+    border-color: transparent;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+input:focus {
+    outline: none;
+}
+
+.search-bar-buttons {
+    margin-top: 20px;
+}
+
+button {
+    background-color: transparent;
+    border-color: transparent;
+}
