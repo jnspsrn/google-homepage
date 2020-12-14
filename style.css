@@ -1,6 +1,6 @@
 body, html {
     height: 100%;
-    width: 100%;
+    width: 99.7%;
 }
 
 .main {
@@ -15,25 +15,42 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    /* background: lightcoral; */
+ /*   background: lightcoral; */
     height: 7%;
     width: 100%;
+    margin-top: 8px;
+}
+
+.header-links {
+    margin-left: 12px;
+    margin-right: 12px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.header-links:hover {
+    text-decoration: underline;
 }
 
 .profile-photo {
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     border-radius: 50%;
 }
 
 .gmail-images-logo {
+    margin-right: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     /* background: chartreuse; */
-    margin-right: 20px;
-    width: 18%;
+}
+
+.about-store {
+    margin-left: 10px;
 }
 
 .content {
@@ -42,13 +59,6 @@ header {
     background: white;
     height: 86%;
     align-items: center;
-}
-
-footer {
-    background: lightpink;
-    align-self: flex-end;
-    width: 100%;
-    height: 7%;
 }
 
 .google-logo {
@@ -75,7 +85,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 30px;
     background-color: white;
     border-radius: 50px;
     width: 500px;
@@ -95,10 +105,75 @@ input:focus {
 }
 
 .search-bar-buttons {
-    margin-top: 20px;
+    margin-top: 50px;
+}
+
+.sbb {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 10px 16px;
+}
+
+.sbb:hover {
+    border: 1px solid #dadce0;
+    background-color: #f8f9fa;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
 button {
     background-color: transparent;
     border-color: transparent;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  /*  background: lightpink; */
+    align-self: flex-end;
+    width: 100%;
+    height: 7%;
+}
+
+.advertising-business-howsearchworks {
+}
+
+.privacy-terms-settings {
+}
+
+.footer-links {
+    color: #70757A;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-links:hover {
+    text-decoration: underline;
+}
+
+.nine-cube-logo {
+    /*background: black;*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-content: space-between;
+    width: 19px;
+    height: 19px;
+}
+
+.ncl {
+    background: rgb(104, 104, 104);
+    width: 5px;
+    height: 5px;
+}
+
+.nine-cube-logo:hover > .ncl {
+    background: black;
 }
